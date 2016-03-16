@@ -14,51 +14,16 @@
 
 @implementation comInfoViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (IBAction)backButton:(id)sender
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (IBAction)wwwTouch:(id)sender
-{
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.digitalscope.cz/"]];      
-}
-
-- (IBAction)facebookTouch:(id)sender
-{
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.facebook.com/pages/DigitalScopecz/359469067407335"]];          
-}
-
-- (IBAction)emailTouch:(id)sender
-{
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto:support@digitalscope.cz"]];          
-}
-
-- (IBAction)backTouch:(id)sender
-{
-    [self dismissModalViewControllerAnimated:YES];
-}
-
-- (void)viewDidLoad
-{
+-(void)viewDidLoad{
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-}
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    
+    self.canDisplayBannerAds = true;
 }
 
 @end

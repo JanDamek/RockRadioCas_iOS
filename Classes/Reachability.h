@@ -62,8 +62,8 @@ typedef enum {
 	SCNetworkReachabilityRef reachabilityRef;
 }
 
-//reachabilityWithAddress- Use to check the reachability of a particular IP address. 
-+ (Reachability*) reachabilityWithAddress: (const struct sockaddr_in*) hostAddress;
+////reachabilityWithAddress- Use to check the reachability of a particular IP address. 
+//+ (Reachability*) reachabilityWithAddress: (const struct sockaddr_in*) hostAddress;
 
 //reachabilityForLocalWiFi- checks whether a local wifi connection is available.
 + (Reachability*) reachabilityForLocalWiFi;

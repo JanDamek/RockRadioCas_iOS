@@ -97,7 +97,7 @@ static void PrintReachabilityFlags(SCNetworkReachabilityFlags    flags, const ch
 	{
 		CFRelease(reachabilityRef);
 	}
-//	[super dealloc];
+	[super dealloc];
 }
 
 + (Reachability*) reachabilityWithHostName: (NSString*) hostName;

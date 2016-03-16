@@ -10,24 +10,24 @@
 			<key>Title</key>
 			<string>Nastavení</string>
 		</dict>
-        <dict>
-            <key>Type</key>
-            <string>PSTitleValueSpecifier</string>
-            <key>Title</key>
-            <string>Verze</string>
-            <key>Key</key>
-            <string>version_preference</string>
-            <key>DefaultValue</key>
-            <string>1.02</string>
-            <key>Values</key>
-            <array>
-                <string>1.02</string>
-            </array>
-            <key>Titles</key>
-            <array>
-                <string>1.02</string>
-            </array>
-        </dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Verze</string>
+			<key>Key</key>
+			<string>version_preference</string>
+			<key>DefaultValue</key>
+			<string>1.0</string>
+			<key>Values</key>
+			<array>
+				<string>1.0</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>1.0</string>
+			</array>
+		</dict>
 		<dict>
 			<key>Type</key>
 			<string>PSMultiValueSpecifier</string>

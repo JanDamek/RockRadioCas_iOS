@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "34C24B573B2617683893E3FC3F535B75C809EF99",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "79A9F6FAFB06765D06145ADC5995F43CCDBAEB9B" : 0,
+    "34C24B573B2617683893E3FC3F535B75C809EF99" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "04D161D2-5896-4422-B00E-278A34252500",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "79A9F6FAFB06765D06145ADC5995F43CCDBAEB9B" : "RadioSity_iOS\/",
+    "34C24B573B2617683893E3FC3F535B75C809EF99" : "RockRadioCas_iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RockRadioCas",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RockRadioCas.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JanDamek\/RockRadioCas_iOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "34C24B573B2617683893E3FC3F535B75C809EF99"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JanDamek\/RadioSity_iOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "79A9F6FAFB06765D06145ADC5995F43CCDBAEB9B"
+    }
+  ]
+}

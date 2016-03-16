@@ -7,12 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
 
-@interface comInfoViewController : UIViewController
-
-- (IBAction)backTouch:(id)sender;
-- (IBAction)wwwTouch:(id)sender;
-- (IBAction)facebookTouch:(id)sender;
-- (IBAction)emailTouch:(id)sender;
+@interface comInfoViewController : UIViewController<ADBannerViewDelegate>
 
 @end
