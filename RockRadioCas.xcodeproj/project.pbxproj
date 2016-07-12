@@ -63,7 +63,6 @@
 		19F313B1150C002E006F3DED /* 320x480_port_contact_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F31393150C002E006F3DED /* 320x480_port_contact_bg.png */; };
 		19F5DF01150D682C002EAF2F /* support.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F5DF00150D682C002EAF2F /* support.png */; };
 		3427346B14E9DFA00022E350 /* kontaktView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3427346A14E9DFA00022E350 /* kontaktView.m */; };
-		3427347114E9DFE00022E350 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3427347014E9DFE00022E350 /* MessageUI.framework */; };
 		343EAD1215004D2A005722D7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343EAD1115004D2A005722D7 /* CoreMedia.framework */; };
 		343EAD1415004D91005722D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343EAD1315004D91005722D7 /* AudioToolbox.framework */; };
 		3468F38214E7D8970004697F /* comAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468F37C14E7D8970004697F /* comAppDelegate.m */; };
@@ -79,6 +78,7 @@
 		34F6020D14DF1D27005DB8A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F6020C14DF1D27005DB8A9 /* CoreGraphics.framework */; };
 		34F6021514DF1D27005DB8A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F6021414DF1D27005DB8A9 /* main.m */; };
 		34F6022914DF1D59005DB8A9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F6022814DF1D59005DB8A9 /* AVFoundation.framework */; };
+		B9DB543C8C15B1FA09C81C77 /* libPods-RockRadioCas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3567CB3B5A3A63D480FC0B8A /* libPods-RockRadioCas.a */; };
 		C4929CCB1549ABBB009A8B10 /* 1024x768_land_back_press.png in Resources */ = {isa = PBXBuildFile; fileRef = C4929CCA1549ABBB009A8B10 /* 1024x768_land_back_press.png */; };
 		EB7E76D51C897436002E3AE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7E76D41C897436002E3AE1 /* Images.xcassets */; };
 		EB7E76D71C8977AD002E3AE1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7E76D61C8977AD002E3AE1 /* Launch Screen.storyboard */; };
@@ -86,7 +86,9 @@
 		EB7E76EB1C8992A7002E3AE1 /* comPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7E76E81C8992A7002E3AE1 /* comPlayer.m */; };
 		EB7E76EC1C8992A7002E3AE1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7E76EA1C8992A7002E3AE1 /* Reachability.m */; };
 		EB7E76EE1C89B6CD002E3AE1 /* infoBck.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7E76ED1C89B6CD002E3AE1 /* infoBck.png */; };
-		EBAA78B01C85CE7E0034BCDD /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBAA78AF1C85CE7E0034BCDD /* iAd.framework */; };
+		EBAFDEE61D35261C008BEBF6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EBAFDEE51D35261C008BEBF6 /* Podfile */; };
+		EBAFDEE91D352670008BEBF6 /* ServiceTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAFDEE81D352670008BEBF6 /* ServiceTools.m */; };
+		EBAFDEEB1D3526AF008BEBF6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBAFDEEA1D3526AF008BEBF6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -145,9 +147,11 @@
 		19F31392150C002E006F3DED /* 320x480_port_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 320x480_port_bg.png; sourceTree = "<group>"; };
 		19F31393150C002E006F3DED /* 320x480_port_contact_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 320x480_port_contact_bg.png; sourceTree = "<group>"; };
 		19F5DF00150D682C002EAF2F /* support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = support.png; sourceTree = "<group>"; };
+		2161D925C6C89FC23C328ADA /* Pods-RockRadioCas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockRadioCas.release.xcconfig"; path = "Pods/Target Support Files/Pods-RockRadioCas/Pods-RockRadioCas.release.xcconfig"; sourceTree = "<group>"; };
+		249DC025BC48781BA2ECCCCE /* Pods-RockRadioCas.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockRadioCas.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-RockRadioCas/Pods-RockRadioCas.distribution.xcconfig"; sourceTree = "<group>"; };
+		3390A79D4E7E3464CDF10AF0 /* Pods-RockRadioCas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockRadioCas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RockRadioCas/Pods-RockRadioCas.debug.xcconfig"; sourceTree = "<group>"; };
 		3427346914E9DFA00022E350 /* kontaktView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kontaktView.h; sourceTree = "<group>"; };
 		3427346A14E9DFA00022E350 /* kontaktView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kontaktView.m; sourceTree = "<group>"; };
-		3427347014E9DFE00022E350 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		343EAD1115004D2A005722D7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		343EAD1315004D91005722D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		3468F37B14E7D8970004697F /* comAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comAppDelegate.h; sourceTree = "<group>"; };
@@ -169,6 +173,7 @@
 		34F6021414DF1D27005DB8A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34F6021614DF1D27005DB8A9 /* RockRadioCas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RockRadioCas-Prefix.pch"; sourceTree = "<group>"; };
 		34F6022814DF1D59005DB8A9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3567CB3B5A3A63D480FC0B8A /* libPods-RockRadioCas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RockRadioCas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4929CCA1549ABBB009A8B10 /* 1024x768_land_back_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024x768_land_back_press.png; sourceTree = "<group>"; };
 		EB7E76D41C897436002E3AE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EB7E76D61C8977AD002E3AE1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -178,7 +183,10 @@
 		EB7E76E91C8992A7002E3AE1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		EB7E76EA1C8992A7002E3AE1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		EB7E76ED1C89B6CD002E3AE1 /* infoBck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoBck.png; sourceTree = "<group>"; };
-		EBAA78AF1C85CE7E0034BCDD /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		EBAFDEE51D35261C008BEBF6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		EBAFDEE71D352670008BEBF6 /* ServiceTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceTools.h; sourceTree = "<group>"; };
+		EBAFDEE81D352670008BEBF6 /* ServiceTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceTools.m; sourceTree = "<group>"; };
+		EBAFDEEA1D3526AF008BEBF6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,18 +194,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBAA78B01C85CE7E0034BCDD /* iAd.framework in Frameworks */,
 				348C844815012AB100051A75 /* CFNetwork.framework in Frameworks */,
 				348C84471501236400051A75 /* QuartzCore.framework in Frameworks */,
 				343EAD1415004D91005722D7 /* AudioToolbox.framework in Frameworks */,
 				343EAD1215004D2A005722D7 /* CoreMedia.framework in Frameworks */,
-				3427347114E9DFE00022E350 /* MessageUI.framework in Frameworks */,
 				346DB10714E1F68F00ADC6C3 /* SystemConfiguration.framework in Frameworks */,
 				3490015014E0A8400062DD0C /* MediaPlayer.framework in Frameworks */,
 				34F6022914DF1D59005DB8A9 /* AVFoundation.framework in Frameworks */,
 				34F6020914DF1D27005DB8A9 /* UIKit.framework in Frameworks */,
 				34F6020B14DF1D27005DB8A9 /* Foundation.framework in Frameworks */,
 				34F6020D14DF1D27005DB8A9 /* CoreGraphics.framework in Frameworks */,
+				B9DB543C8C15B1FA09C81C77 /* libPods-RockRadioCas.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,12 +348,15 @@
 		34F601F914DF1D27005DB8A9 = {
 			isa = PBXGroup;
 			children = (
+				EBAFDEEA1D3526AF008BEBF6 /* GoogleService-Info.plist */,
+				EBAFDEE51D35261C008BEBF6 /* Podfile */,
 				EB7E76D81C8978EE002E3AE1 /* Storyboard.storyboard */,
 				EB7E76D61C8977AD002E3AE1 /* Launch Screen.storyboard */,
 				3468F37A14E7D8970004697F /* Classes */,
 				34F6020E14DF1D27005DB8A9 /* RockRadioCas */,
 				34F6020714DF1D27005DB8A9 /* Frameworks */,
 				34F6020514DF1D27005DB8A9 /* Products */,
+				74953C4F5E6B619CB4F5D16E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -361,7 +371,6 @@
 		34F6020714DF1D27005DB8A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EBAA78AF1C85CE7E0034BCDD /* iAd.framework */,
 				348C84461501236400051A75 /* QuartzCore.framework */,
 				343EAD1315004D91005722D7 /* AudioToolbox.framework */,
 				34F6020C14DF1D27005DB8A9 /* CoreGraphics.framework */,
@@ -369,10 +378,10 @@
 				34F6020814DF1D27005DB8A9 /* UIKit.framework */,
 				34F6020A14DF1D27005DB8A9 /* Foundation.framework */,
 				34F6022814DF1D59005DB8A9 /* AVFoundation.framework */,
-				3427347014E9DFE00022E350 /* MessageUI.framework */,
 				346DB10614E1F68F00ADC6C3 /* SystemConfiguration.framework */,
 				346DB10414E1F61E00ADC6C3 /* CFNetwork.framework */,
 				3490014F14E0A8400062DD0C /* MediaPlayer.framework */,
+				3567CB3B5A3A63D480FC0B8A /* libPods-RockRadioCas.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -408,9 +417,21 @@
 			path = images;
 			sourceTree = "<group>";
 		};
+		74953C4F5E6B619CB4F5D16E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3390A79D4E7E3464CDF10AF0 /* Pods-RockRadioCas.debug.xcconfig */,
+				2161D925C6C89FC23C328ADA /* Pods-RockRadioCas.release.xcconfig */,
+				249DC025BC48781BA2ECCCCE /* Pods-RockRadioCas.distribution.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EB7E76DA1C8988CD002E3AE1 /* player */ = {
 			isa = PBXGroup;
 			children = (
+				EBAFDEE71D352670008BEBF6 /* ServiceTools.h */,
+				EBAFDEE81D352670008BEBF6 /* ServiceTools.m */,
 				EB7E76E71C8992A7002E3AE1 /* comPlayer.h */,
 				EB7E76E81C8992A7002E3AE1 /* comPlayer.m */,
 				EB7E76E91C8992A7002E3AE1 /* Reachability.h */,
@@ -426,9 +447,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34F6022514DF1D27005DB8A9 /* Build configuration list for PBXNativeTarget "RockRadioCas" */;
 			buildPhases = (
+				17CC3B8E1A90AF750CD717E1 /* [CP] Check Pods Manifest.lock */,
 				34F6020014DF1D27005DB8A9 /* Sources */,
 				34F6020114DF1D27005DB8A9 /* Frameworks */,
 				34F6020214DF1D27005DB8A9 /* Resources */,
+				9454A643F6CA5D30A31E28CD /* [CP] Embed Pods Frameworks */,
+				62326F2D573860306E49DA7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -522,6 +546,7 @@
 				191AAA7F150CD03D00AFD20C /* 768x1024_port_icons_face_press.png in Resources */,
 				191AAA80150CD03D00AFD20C /* 768x1024_port_icons_pause.png in Resources */,
 				191AAA81150CD03D00AFD20C /* 768x1024_port_icons_pause_press.png in Resources */,
+				EBAFDEE61D35261C008BEBF6 /* Podfile in Resources */,
 				191AAA82150CD03D00AFD20C /* 768x1024_port_icons_play.png in Resources */,
 				EB7E76EE1C89B6CD002E3AE1 /* infoBck.png in Resources */,
 				191AAA83150CD03D00AFD20C /* 768x1024_port_icons_play_press.png in Resources */,
@@ -533,6 +558,7 @@
 				191AAA89150CD03D00AFD20C /* 1024x768_land_contact_bg.png in Resources */,
 				191AAA8A150CD03D00AFD20C /* 768x1024_port_bg.png in Resources */,
 				191AAA8B150CD03D00AFD20C /* 768x1024_port_contact_bg.png in Resources */,
+				EBAFDEEB1D3526AF008BEBF6 /* GoogleService-Info.plist in Resources */,
 				191F6B3D150D5D3E00EB8127 /* digiscope-logo.png in Resources */,
 				19F5DF01150D682C002EAF2F /* support.png in Resources */,
 				197ED68615113EB1001104C6 /* 320x480_infoview.png in Resources */,
@@ -542,6 +568,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17CC3B8E1A90AF750CD717E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62326F2D573860306E49DA7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RockRadioCas/Pods-RockRadioCas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9454A643F6CA5D30A31E28CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RockRadioCas/Pods-RockRadioCas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		34F6020014DF1D27005DB8A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -550,6 +624,7 @@
 				34F6021514DF1D27005DB8A9 /* main.m in Sources */,
 				3468F38214E7D8970004697F /* comAppDelegate.m in Sources */,
 				3468F38314E7D8970004697F /* comViewController.m in Sources */,
+				EBAFDEE91D352670008BEBF6 /* ServiceTools.m in Sources */,
 				EB7E76EC1C8992A7002E3AE1 /* Reachability.m in Sources */,
 				3427346B14E9DFA00022E350 /* kontaktView.m in Sources */,
 				EB7E76EB1C8992A7002E3AE1 /* comPlayer.m in Sources */,
@@ -593,7 +668,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = RockCas;
@@ -630,7 +705,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = RockCas;
 				PROVISIONING_PROFILE = "";
@@ -643,9 +718,11 @@
 		};
 		34F6022614DF1D27005DB8A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3390A79D4E7E3464CDF10AF0 /* Pods-RockRadioCas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_OPENMP_SUPPORT = NO;
@@ -654,7 +731,6 @@
 				GCC_VERSION = "";
 				GENERATE_PROFILING_CODE = YES;
 				INFOPLIST_FILE = "RockRadioCas/RockRadioCas-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eu.damek.radio.RockRadioCas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -665,9 +741,11 @@
 		};
 		34F6022714DF1D27005DB8A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2161D925C6C89FC23C328ADA /* Pods-RockRadioCas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_OPENMP_SUPPORT = NO;
@@ -677,10 +755,9 @@
 				GENERATE_PROFILING_CODE = YES;
 				INFOPLIST_FILE = "RockRadioCas/RockRadioCas-Info.plist";
 				"INSTALL_PATH[sdk=iphoneos*]" = "$(LOCAL_APPS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eu.damek.radio.RockRadioCas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "7c2de0cf-3535-4132-815c-7e2aeae91569";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
@@ -712,7 +789,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = RockCas;
 				PROVISIONING_PROFILE = "";
@@ -725,9 +802,11 @@
 		};
 		C4C7D6321549DC2D00B1F013 /* Distribution */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 249DC025BC48781BA2ECCCCE /* Pods-RockRadioCas.distribution.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_OPENMP_SUPPORT = NO;
@@ -737,10 +816,9 @@
 				GENERATE_PROFILING_CODE = YES;
 				INFOPLIST_FILE = "RockRadioCas/RockRadioCas-Info.plist";
 				"INSTALL_PATH[sdk=iphoneos*]" = "$(LOCAL_APPS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eu.damek.radio.RockRadioCas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "7c2de0cf-3535-4132-815c-7e2aeae91569";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};

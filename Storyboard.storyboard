@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="oZW-Wr-XAA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="oZW-Wr-XAA">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -125,6 +125,14 @@
                                     <rect key="frame" x="69" y="492" width="277" height="39"/>
                                 </variation>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z67-6L-bRZ" customClass="GADBannerView">
+                                <rect key="frame" x="280" y="28" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="GOR-kB-JeB"/>
+                                    <constraint firstAttribute="height" constant="50" id="Gh9-Jc-1IQ"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -137,7 +145,9 @@
                             <constraint firstItem="OM4-uM-P3O" firstAttribute="trailing" secondItem="qf3-hm-FG8" secondAttribute="trailingMargin" id="Ih4-8F-UqU"/>
                             <constraint firstItem="Nk6-lE-jGR" firstAttribute="top" secondItem="JBh-Sp-iwZ" secondAttribute="bottom" constant="8" symbolic="YES" id="KH1-Cx-dlF"/>
                             <constraint firstItem="w6t-ie-ZBc" firstAttribute="leading" secondItem="Gu1-jC-WOJ" secondAttribute="leading" id="KfT-2V-3b4"/>
+                            <constraint firstItem="z67-6L-bRZ" firstAttribute="top" secondItem="596-Om-APH" secondAttribute="bottom" constant="8" symbolic="YES" id="SID-Bg-52M"/>
                             <constraint firstItem="JBh-Sp-iwZ" firstAttribute="trailing" secondItem="d5l-tA-GLa" secondAttribute="trailing" id="VE5-hi-JIe"/>
+                            <constraint firstItem="z67-6L-bRZ" firstAttribute="trailing" secondItem="jYr-fI-wMf" secondAttribute="trailing" id="WyU-5K-erW"/>
                             <constraint firstItem="OM4-uM-P3O" firstAttribute="top" secondItem="d5l-tA-GLa" secondAttribute="top" id="X9D-qV-em2"/>
                             <constraint firstItem="jYr-fI-wMf" firstAttribute="bottom" secondItem="Nk6-lE-jGR" secondAttribute="top" id="Zxr-2L-6UR"/>
                             <constraint firstItem="Gu1-jC-WOJ" firstAttribute="top" secondItem="596-Om-APH" secondAttribute="bottom" constant="307" id="dFP-9t-l3P"/>
@@ -152,6 +162,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bannerView" destination="z67-6L-bRZ" id="SyW-aG-cCb"/>
                         <outlet property="btnPlay" destination="JBh-Sp-iwZ" id="kst-9h-QnA"/>
                         <outlet property="btnStop" destination="d5l-tA-GLa" id="kki-Ca-lYE"/>
                         <outlet property="interpretLabel" destination="Gu1-jC-WOJ" id="etJ-sc-lMX"/>
@@ -184,6 +195,7 @@
                                 </constraints>
                                 <state key="normal" title="Button" image="320x480_port_contact_back.png"/>
                                 <connections>
+                                    <action selector="backButton:" destination="mpt-Li-Mdj" eventType="touchUpInside" id="ggc-U1-Txq"/>
                                     <action selector="backButton:" destination="VjH-es-GgH" eventType="touchUpInside" id="pwU-Pb-9Xb"/>
                                 </connections>
                             </button>
@@ -208,16 +220,26 @@
                                     <action selector="sendEmailButton:" destination="mpt-Li-Mdj" eventType="touchUpInside" id="8dP-lV-p4L"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Hl-t5-tYj" customClass="GADBannerView">
+                                <rect key="frame" x="260" y="95" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3ac-Uh-OGR"/>
+                                    <constraint firstAttribute="width" constant="320" id="Ey8-bc-Fku"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="PMn-xB-Oec" firstAttribute="top" secondItem="JPM-Hj-zZL" secondAttribute="bottom" constant="35" id="0Te-od-sPE"/>
                             <constraint firstItem="JPM-Hj-zZL" firstAttribute="centerY" secondItem="HeM-jU-aYT" secondAttribute="centerY" id="0qs-ZQ-MDa"/>
                             <constraint firstItem="oTE-eA-jlo" firstAttribute="trailing" secondItem="JPM-Hj-zZL" secondAttribute="trailing" id="7gi-sF-6Dy"/>
+                            <constraint firstItem="1Hl-t5-tYj" firstAttribute="top" secondItem="TMi-jH-BW7" secondAttribute="bottom" constant="8" symbolic="YES" id="AJk-of-oXu"/>
                             <constraint firstItem="JPM-Hj-zZL" firstAttribute="leading" secondItem="iZL-Fh-Qu4" secondAttribute="leadingMargin" id="Bu7-od-eY9"/>
                             <constraint firstItem="TMi-jH-BW7" firstAttribute="trailing" secondItem="JPM-Hj-zZL" secondAttribute="trailing" id="JGj-kZ-sSr"/>
                             <constraint firstItem="HeM-jU-aYT" firstAttribute="bottom" secondItem="vs6-BY-CnV" secondAttribute="top" id="Mco-wF-Vvj"/>
                             <constraint firstItem="HeM-jU-aYT" firstAttribute="top" secondItem="iZL-Fh-Qu4" secondAttribute="top" id="QwY-F9-io4"/>
+                            <constraint firstItem="1Hl-t5-tYj" firstAttribute="trailing" secondItem="TMi-jH-BW7" secondAttribute="trailing" id="Rw4-TB-UXO"/>
                             <constraint firstItem="PMn-xB-Oec" firstAttribute="leading" secondItem="iZL-Fh-Qu4" secondAttribute="leadingMargin" constant="86" id="SaW-cn-dtA"/>
                             <constraint firstAttribute="trailing" secondItem="HeM-jU-aYT" secondAttribute="trailing" id="XmP-9K-wgf"/>
                             <constraint firstItem="HeM-jU-aYT" firstAttribute="leading" secondItem="iZL-Fh-Qu4" secondAttribute="leadingMargin" constant="-25" id="aw1-1v-rhP"/>
@@ -228,6 +250,9 @@
                             <constraint firstItem="PMn-xB-Oec" firstAttribute="centerX" secondItem="HeM-jU-aYT" secondAttribute="centerX" id="tHX-ai-lbA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bannerView" destination="1Hl-t5-tYj" id="XcC-IE-6T2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VjH-es-GgH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -255,6 +280,7 @@
                                 </constraints>
                                 <state key="normal" title="Button" image="320x480_port_contact_back.png"/>
                                 <connections>
+                                    <action selector="backButton:" destination="NaU-Y4-eaL" eventType="touchUpInside" id="6dI-gn-cJf"/>
                                     <action selector="backButton:" destination="Rnq-Gc-FHN" eventType="touchUpInside" id="lg8-gp-Pvd"/>
                                 </connections>
                             </button>
@@ -267,20 +293,35 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CUT-rr-7AP" customClass="GADBannerView">
+                                <rect key="frame" x="140" y="530" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="9mP-eA-5lh"/>
+                                    <constraint firstAttribute="height" constant="50" id="JW1-dC-NC2"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="PeZ-bT-qB6" firstAttribute="centerX" secondItem="oUl-sb-xq8" secondAttribute="centerX" id="1vd-U6-tF3"/>
                             <constraint firstItem="z5y-HH-rgu" firstAttribute="trailing" secondItem="PeZ-bT-qB6" secondAttribute="trailing" id="7Yl-xU-Iku"/>
                             <constraint firstAttribute="trailing" secondItem="oUl-sb-xq8" secondAttribute="trailing" id="Aiz-Rw-Jhe"/>
+                            <constraint firstItem="CUT-rr-7AP" firstAttribute="leading" secondItem="5V1-83-smP" secondAttribute="leading" constant="140" id="LLM-6H-ykn"/>
                             <constraint firstItem="z5y-HH-rgu" firstAttribute="top" secondItem="9tO-XD-TZR" secondAttribute="bottom" constant="8" symbolic="YES" id="Pnr-R6-PfG"/>
                             <constraint firstItem="oUl-sb-xq8" firstAttribute="leading" secondItem="5V1-83-smP" secondAttribute="leading" id="QaF-6y-i5z"/>
                             <constraint firstItem="oUl-sb-xq8" firstAttribute="bottom" secondItem="aFN-Lv-GyS" secondAttribute="top" id="VEN-B0-SRW"/>
+                            <constraint firstItem="CUT-rr-7AP" firstAttribute="centerX" secondItem="PeZ-bT-qB6" secondAttribute="centerX" id="fsP-L4-b8O"/>
                             <constraint firstItem="oUl-sb-xq8" firstAttribute="top" secondItem="5V1-83-smP" secondAttribute="top" id="iGw-Te-Qo7"/>
                             <constraint firstAttribute="bottom" secondItem="PeZ-bT-qB6" secondAttribute="bottom" constant="20" symbolic="YES" id="oPz-Ha-hxK"/>
+                            <constraint firstItem="CUT-rr-7AP" firstAttribute="bottom" secondItem="PeZ-bT-qB6" secondAttribute="bottom" id="qUp-z7-QH5"/>
+                            <constraint firstItem="CUT-rr-7AP" firstAttribute="top" secondItem="9tO-XD-TZR" secondAttribute="bottom" constant="510" id="tlf-1x-TKg"/>
                             <constraint firstItem="PeZ-bT-qB6" firstAttribute="leading" secondItem="5V1-83-smP" secondAttribute="leadingMargin" id="u9J-ea-I8F"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bannerView" destination="CUT-rr-7AP" id="OVb-0y-LXN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rnq-Gc-FHN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -1,6 +1,16 @@
+
+@import GoogleMobileAds;
+
 #import "comViewController.h"
 #import "Reachability.h"
 #import "comAppDelegate.h"
+#import "ServiceTools.h"
+
+@interface comViewController ()
+
+@property (retain, nonatomic) IBOutlet GADBannerView *bannerView;
+
+@end
 
 NSString *kUserAgent        = @"RockRadioCas iPhone player V1.0";
 NSString *kRockRadioCas     = @"Rádio Čas Rock";
@@ -11,7 +21,6 @@ NSString *kWiFiNeniDostupne = @"WiFi není dostupné.";
 NSString *kOK               = @"OK";
 NSString *kChybaXML         = @"Chyba XML";
 NSString *kURLStreamDefault = @"http://icecast1.play.cz:8000/casrock32aac";
-//NSString *kURLXML           = @"http://casrock.cz/nowplaying/rockonair.xml";
 NSString *kURLXML           = @"http://casrock.cz/nowplaying/rockonair.php";
 NSString *kBuffData         = @"Loading data";
 
@@ -156,7 +165,7 @@ NSString *kBuffData         = @"Loading data";
         [self initPlayer];
     }
     
-    self.canDisplayBannerAds = true;
+    [ServiceTools GADInitialization:_bannerView rootViewController:self];
 }
 
 - (void)initPlayer
@@ -246,4 +255,8 @@ NSString *kBuffData         = @"Loading data";
     }
 }
 
+- (void)dealloc {
+    [_bannerView release];
+    [super dealloc];
+}
 @end

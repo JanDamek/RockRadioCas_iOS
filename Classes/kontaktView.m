@@ -6,17 +6,25 @@
 //  Copyright (c) 2012 droidsoft.eu. All rights reserved.
 //
 
-#import "kontaktView.h"
+@import GoogleMobileAds;
 
+#import "kontaktView.h"
 #import "comInfoViewController.h"
 #import "comAppDelegate.h"
+#import "ServiceTools.h"
+
+@interface kontaktView ()
+
+@property (retain, nonatomic) IBOutlet GADBannerView *bannerView;
+
+@end
 
 @implementation kontaktView
 
 -(void)viewDidLoad{
     [super viewDidLoad];
     
-    self.canDisplayBannerAds = true;
+    [ServiceTools GADInitialization:_bannerView rootViewController:self];
 }
 
 - (IBAction)sendSMSButton:(id)sender
@@ -61,4 +69,8 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+- (void)dealloc {
+    [_bannerView release];
+    [super dealloc];
+}
 @end
